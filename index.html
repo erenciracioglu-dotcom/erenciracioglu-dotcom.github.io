@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="tr">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Eren Çıracıoğlu · Projeler</title>
-<meta name="description" content="Tarayıcıda çalışan oyunlar, enstrümanlar, simülasyonlar ve oyuncaklar.">
-<meta property="og:title" content="Eren Çıracıoğlu · Projeler">
-<meta property="og:description" content="Tarayıcıda çalışan oyunlar, enstrümanlar, simülasyonlar ve oyuncaklar.">
+<title>Eren Çıracıoğlu · Projects</title>
+<meta name="description" content="Games, instruments, simulations and toys that run in the browser, and the Antrasit Band AI music videos.">
+<meta property="og:title" content="Eren Çıracıoğlu · Projects">
+<meta property="og:description" content="Games, instruments, simulations and toys that run in the browser, and the Antrasit Band AI music videos.">
 <meta property="og:image" content="https://erenciracioglu-dotcom.github.io/thumbs/suluboya-atolyesi.webp">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23d9653b'/><circle cx='16' cy='16' r='6' fill='%23fbf7f0'/></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,12 +52,14 @@
   .top { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 36px; }
   .who { font-weight: 600; font-size: 15px; text-decoration: none; display: flex; align-items: center; gap: 10px; }
   .who img { width: 32px; height: 32px; border-radius: 50%; background: var(--chip); }
-  .lang { display: flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+  .lang { display: flex; gap: 4px; padding: 4px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); }
   .lang button {
-    border: 0; background: transparent; color: var(--muted); font: inherit; font-size: 13px; font-weight: 600;
-    padding: 6px 12px; cursor: pointer;
+    border: 0; background: transparent; padding: 4px; border-radius: 999px; cursor: pointer; line-height: 0;
+    opacity: .45; filter: grayscale(.6); transition: opacity .15s, filter .15s;
   }
-  .lang button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+  .lang button:hover { opacity: .8; filter: none; }
+  .lang button[aria-pressed="true"] { opacity: 1; filter: none; box-shadow: 0 0 0 2px var(--accent); }
+  .lang svg { width: 30px; height: 20px; border-radius: 4px; display: block; }
   h1 {
     font-family: Fraunces, Georgia, serif; font-weight: 600; letter-spacing: -.02em;
     font-size: clamp(36px, 6vw, 64px); line-height: 1.04; margin: 0 0 14px; max-width: 16ch;
@@ -106,6 +108,22 @@
   .btn:hover { border-color: var(--accent); }
   .btn.primary:hover { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 
+  .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 8px 0 18px; }
+  .section-head h2 { font-family: Fraunces, Georgia, serif; font-weight: 600; font-size: clamp(26px, 3.4vw, 36px); letter-spacing: -.01em; margin: 0; }
+  .section-head a { font-size: 14px; color: var(--muted); }
+  .videos { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+  .video .shot { aspect-ratio: 16 / 9; }
+  .video .play {
+    position: absolute; inset: 0; margin: auto; width: 58px; height: 40px; border-radius: 12px;
+    background: rgba(20, 16, 12, .72); display: grid; place-items: center; transition: background .2s;
+  }
+  .video .play::after { content: ""; border-left: 15px solid #fff; border-top: 9px solid transparent; border-bottom: 9px solid transparent; margin-left: 3px; }
+  .video:hover .play { background: #e0301e; }
+  .video .body { padding: 14px 16px 16px; }
+  .video h3 { margin: 0; font-size: 16px; font-weight: 600; line-height: 1.35; }
+  .video h3 a { text-decoration: none; }
+  [hidden] { display: none !important; }
+
   footer { border-top: 1px solid var(--line); padding: 24px 0 40px; color: var(--muted); font-size: 14px; }
   footer a { color: var(--ink); }
 
@@ -128,22 +146,47 @@
       <img src="https://github.com/erenciracioglu-dotcom.png?size=64" alt="" width="32" height="32">
       erenciracioglu-dotcom
     </a>
-    <div class="lang" role="group" aria-label="Dil / Language">
-      <button type="button" data-lang="tr">TR</button>
-      <button type="button" data-lang="en">EN</button>
+    <div class="lang" role="group" aria-label="Language / Dil">
+      <button type="button" data-lang="en" title="English" aria-label="English">
+        <svg viewBox="0 0 60 40" aria-hidden="true">
+          <clipPath id="uk"><rect width="60" height="40"/></clipPath>
+          <g clip-path="url(#uk)">
+            <rect width="60" height="40" fill="#012169"/>
+            <path d="M0,0 60,40M60,0 0,40" stroke="#fff" stroke-width="8"/>
+            <path d="M0,0 60,40M60,0 0,40" stroke="#C8102E" stroke-width="3"/>
+            <path d="M30,0V40M0,20H60" stroke="#fff" stroke-width="12"/>
+            <path d="M30,0V40M0,20H60" stroke="#C8102E" stroke-width="7"/>
+          </g>
+        </svg>
+      </button>
+      <button type="button" data-lang="tr" title="Türkçe" aria-label="Türkçe">
+        <svg viewBox="0 0 60 40" aria-hidden="true">
+          <rect width="60" height="40" fill="#E30A17"/>
+          <circle cx="22" cy="20" r="10" fill="#fff"/>
+          <circle cx="24.5" cy="20" r="8" fill="#E30A17"/>
+          <polygon fill="#fff" points="31.5,20 40.6,17.05 35,24.8 35,15.2 40.6,22.95"/>
+        </svg>
+      </button>
     </div>
   </div>
-  <h1 data-i18n="title">Tarayıcıda çalışan küçük dünyalar</h1>
-  <p class="lede" data-i18n="lede">Oyunlar, enstrümanlar, simülasyonlar ve oyuncaklar. Hepsi kurulum gerektirmeden tarayıcıda açılır.</p>
+  <h1 data-i18n="title">Small worlds that run in your browser</h1>
+  <p class="lede" data-i18n="lede">Games, instruments, simulations and toys. Each one opens straight in the browser, nothing to install.</p>
 </header>
 
 <main class="wrap">
-  <nav class="filters" id="filters" aria-label="Filtre"></nav>
+  <nav class="filters" id="filters" aria-label="Filter"></nav>
   <section class="grid" id="grid" aria-live="polite"></section>
+  <section id="videos-section">
+    <div class="section-head">
+      <h2 data-i18n="videos">Antrasit Band AI Music Videos</h2>
+      <a href="https://linktr.ee/antrasit.band">linktr.ee/antrasit.band</a>
+    </div>
+    <div class="grid videos" id="videos"></div>
+  </section>
 </main>
 
 <footer class="wrap">
-  <span data-i18n="footer">Kaynak kodlarının tamamı</span>
+  <span data-i18n="footer">All source code is on</span>
   <a href="https://github.com/erenciracioglu-dotcom">GitHub</a>.
 </footer>
 
@@ -158,23 +201,25 @@ const T = {
     title: 'Tarayıcıda çalışan küçük dünyalar',
     lede: 'Oyunlar, enstrümanlar, simülasyonlar ve oyuncaklar. Hepsi kurulum gerektirmeden tarayıcıda açılır.',
     footer: 'Kaynak kodlarının tamamı',
-    open: 'Aç', source: 'Kaynak', all: 'Hepsi', new: 'Yeni',
+    open: 'Aç', source: 'Kaynak', all: 'Hepsi', new: 'Yeni', videos: 'Antrasit Band AI Müzik Klipleri', clips: 'Müzik klipleri',
     tags: { game: 'Oyun', music: 'Müzik', sim: 'Simülasyon', art: 'Görsel', '4d': '4 boyut', map: 'Harita', other: 'Diğer' }
   },
   en: {
     title: 'Small worlds that run in your browser',
     lede: 'Games, instruments, simulations and toys. Each one opens straight in the browser, nothing to install.',
     footer: 'All source code is on',
-    open: 'Open', source: 'Source', all: 'All', new: 'New',
+    open: 'Open', source: 'Source', all: 'All', new: 'New', videos: 'Antrasit Band AI Music Videos', clips: 'Music videos',
     tags: { game: 'Game', music: 'Music', sim: 'Simulation', art: 'Visual', '4d': '4D', map: 'Map', other: 'Other' }
   }
 };
 
-let lang = 'tr';
-try { lang = localStorage.getItem('lang') || (navigator.language.startsWith('tr') ? 'tr' : 'en'); } catch (e) {}
-if (!T[lang]) lang = 'tr';
+// English by default; a choice made with the flags is remembered.
+let lang = 'en';
+try { lang = localStorage.getItem('lang') || 'en'; } catch (e) {}
+if (!T[lang]) lang = 'en';
 let filter = 'all';
 let projects = [];
+let videos = [];
 
 const el = (tag, attrs = {}, ...kids) => {
   const n = document.createElement(tag);
@@ -202,6 +247,16 @@ function card(p) {
         el('a', { class: 'btn', href: `https://github.com/${OWNER}/${p.repo}` }, t.source))));
 }
 
+function videoCard(v) {
+  const url = `https://www.youtube.com/watch?v=${v.id}`;
+  const title = v.title || 'Antrasit Band';
+  const img = el('img', { src: `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`, alt: '', loading: 'lazy', width: 480, height: 270 });
+  img.onerror = () => img.replaceWith(el('span', { class: 'ph' }, 'Antrasit Band'));
+  return el('article', { class: 'card video' },
+    el('a', { class: 'shot', href: url, tabindex: '-1', 'aria-hidden': 'true' }, img, el('span', { class: 'play' })),
+    el('div', { class: 'body' }, el('h3', {}, el('a', { href: url }, title))));
+}
+
 function render() {
   const t = T[lang];
   document.documentElement.lang = lang;
@@ -211,12 +266,19 @@ function render() {
   const counts = {};
   projects.forEach(p => p.tags.forEach(g => { counts[g] = (counts[g] || 0) + 1; }));
   const nav = document.getElementById('filters');
-  nav.replaceChildren(...['all', ...Object.keys(t.tags).filter(g => counts[g])].map(g =>
+  counts.all = projects.length + videos.length;
+  if (videos.length) counts.clips = videos.length;
+  const label = g => g === 'all' ? t.all : g === 'clips' ? t.clips : t.tags[g];
+  nav.replaceChildren(...['all', ...Object.keys(t.tags), 'clips'].filter(g => counts[g]).map(g =>
     el('button', { type: 'button', 'aria-pressed': String(filter === g), 'data-f': g },
-      g === 'all' ? t.all : t.tags[g], el('span', { class: 'n' }, g === 'all' ? projects.length : counts[g]))));
+      label(g), el('span', { class: 'n' }, counts[g]))));
 
-  const shown = projects.filter(p => filter === 'all' || p.tags.includes(filter));
-  document.getElementById('grid').replaceChildren(...shown.map(card));
+  const shown = filter === 'clips' ? [] : projects.filter(p => filter === 'all' || p.tags.includes(filter));
+  const grid = document.getElementById('grid');
+  grid.hidden = !shown.length;
+  grid.replaceChildren(...shown.map(card));
+  document.getElementById('videos-section').hidden = !videos.length || !(filter === 'all' || filter === 'clips');
+  document.getElementById('videos').replaceChildren(...videos.map(videoCard));
 }
 
 document.getElementById('filters').addEventListener('click', e => {
@@ -236,7 +298,9 @@ async function load() {
     const list = await (await fetch('projects.json')).json();
     projects = list.map(p => ({ ...p, thumb: p.thumb || `thumbs/${p.repo.toLowerCase()}.webp` }));
   } catch (e) { projects = []; }
+  try { videos = await (await fetch('videos.json')).json(); } catch (e) { videos = []; }
   render();
+  loadVideoTitles();
 
   try {
     const res = await fetch(`https://api.github.com/users/${OWNER}/repos?per_page=100&sort=created`);
@@ -255,6 +319,18 @@ async function load() {
     if (extra.length) { projects = [...extra, ...projects]; render(); }
   } catch (e) { /* offline or rate-limited: the curated list is enough */ }
 }
+// Titles come live from YouTube (through noembed, which allows browser requests),
+// so a renamed video shows its new name. A "title" in videos.json wins.
+function loadVideoTitles() {
+  videos.filter(v => !v.title).forEach(async v => {
+    try {
+      const url = encodeURIComponent(`https://www.youtube.com/watch?v=${v.id}`);
+      const data = await (await fetch(`https://noembed.com/embed?url=${url}`)).json();
+      if (data.title) { v.title = data.title; render(); }
+    } catch (e) { /* keep the fallback title */ }
+  });
+}
+
 load();
 </script>
 </body>
