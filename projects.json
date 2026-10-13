@@ -1,0 +1,58 @@
+[
+  {
+    "repo": "suluboya-atolyesi",
+    "title": "Suluboya Atölyesi",
+    "tags": ["sim", "art"],
+    "tr": "Tarayıcıda fizik tabanlı suluboya: akan su, emilen nem, Kubelka–Munk ile karışan 34 gerçek pigment, tuz, kurutma makinesi ve 6 kağıt türü.",
+    "en": "A physics-based watercolour simulator on the GPU: flowing water, soaking paper, 34 real pigments mixed with Kubelka–Munk, salt, hairdryer and six papers."
+  },
+  {
+    "repo": "flooder",
+    "title": "Flooder",
+    "tags": ["sim", "map"],
+    "tr": "Deniz seviyesi −5.000 m ile +7.000 m arasında değişirse Türkiye ve çevresinde nereler su altında kalır? Batimetri, bağlantılı taşkın modeli ve il istatistikleri.",
+    "en": "What floods, or surfaces, around Türkiye if the sea moves between −5,000 m and +7,000 m? Bathymetry, connected flooding and per-province stats."
+  },
+  {
+    "repo": "soft-orbit",
+    "title": "Soft Orbit",
+    "tags": ["music"],
+    "tr": "Poliritmik kil bir planetaryum: on oluğa boncuk bastır, dönen ışık her boncuğu çalsın. Ruh hâli, akor, gezgin boncuklar ve loop WAV kaydı.",
+    "en": "A polyrhythmic clay orrery: press beads into ten grooves and a sweeping light plays them. Moods, chords, wandering beads and loop WAV bounce."
+  },
+  {
+    "repo": "musyc-relief",
+    "title": "Musyc Relief",
+    "tags": ["music"],
+    "tr": "Şarkı, yumuşak kile oyulmuş bir kabartma; bir ışık onu okur. Yükseklik perde, uzunluk süre, derinlik ses şiddeti. Şarkıyı WAV olarak fırınla.",
+    "en": "A song is a relief carved into soft clay and a light reads it. Height is pitch, length is duration, depth is loudness. Bake the song to WAV."
+  },
+  {
+    "repo": "Tesseracting",
+    "title": "Tesseracting",
+    "tags": ["4d"],
+    "tr": "Dört boyutu hissetmek için bir oyuncak: dönen bir tesseraktın içinde ağırlıksız seken bir top, hem dışarıdan hem topun kendi gözünden.",
+    "en": "A toy for feeling your way around four dimensions: a ball bouncing inside a turning tesseract, seen from outside and through its own eyes."
+  },
+  {
+    "repo": "Hyperwell",
+    "title": "Hyperwell",
+    "tags": ["4d", "game"],
+    "tr": "Dört boyutlu sakin bir blok bulmacası: tesserakt biçimli kuyunun bütün 3B katmanlarını doldur. Acele yok, geri alma var.",
+    "en": "A calm falling-block puzzle in four dimensions: fill whole 3D layers of a tesseract-shaped well. No hurry, and you can undo."
+  },
+  {
+    "repo": "last-train",
+    "title": "Last Train",
+    "tags": ["game"],
+    "tr": "Prosedürel SVG ile çizilen birinci şahıs korku nişancı oyunu. 4. peronu şafağa kadar tut; ışıklar sönüyor ve raylardan bir şey geliyor.",
+    "en": "A first-person horror shooter drawn with procedural SVG. Hold Platform 4 until dawn; the lights are failing and something followed the rails in."
+  },
+  {
+    "repo": "Plasma_Reactor",
+    "title": "Plasma Reactor",
+    "tags": ["art"],
+    "tr": "Gerçek zamanlı fraktal noise alanları için tek dosyalık GPU shader paneli: 50+ parametre, hazır ayarlar, PNG yakalama ve paylaşım linki.",
+    "en": "A single-file GPU shader deck for real-time fractal noise fields: 50+ parameters, presets, PNG capture and share links."
+  }
+]
