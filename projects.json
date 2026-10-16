@@ -1,5 +1,12 @@
 [
   {
+    "repo": "GlassStack",
+    "title": "GlassStack",
+    "tags": ["tool"],
+    "tr": "Windows 11 için küçük bir sistem izleyici: görev çubuğunda ince bir şerit, Ctrl+Shift+Space ile açılan 3B kart destesi ve her sayının arkasındaki işlemleri gösteren detay pencereleri. Tek exe, ~2 MB bellek.",
+    "en": "A tiny system monitor for Windows 11: a slim strip on the taskbar, a 3D deck of cards on Ctrl+Shift+Space and detail windows with the processes behind every number. One exe, ~2 MB of memory."
+  },
+  {
     "repo": "suluboya-atolyesi",
     "title": "Suluboya Atölyesi",
     "tags": ["sim", "art"],
