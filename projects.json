@@ -1,5 +1,12 @@
 [
   {
+    "repo": "emergence",
+    "title": "Emergence",
+    "tags": ["sim"],
+    "tr": "Kendi fizik yasaları olan minicik bir evren: yaşam kendiliğinden başlıyor, gerçek zamanlı olarak evrimleşiyor, yarışıyor ve iş birliği yapıyor. Yasalarını meraklı bir tanrı gibi bük.",
+    "en": "A tiny universe with its own laws of physics, where life sparks on its own and evolves, competes and cooperates in real time. Bend its laws like a curious god."
+  },
+  {
     "repo": "ebru",
     "title": "Ebru Atölyesi",
     "tags": ["sim", "art"],
