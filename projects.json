@@ -1,10 +1,10 @@
 [
   {
     "repo": "ebru",
-    "title": "Ebru",
-    "tags": ["art", "sim"],
-    "tr": "Su üstünde kendini yapan, sonra zamanı geri saran bir ebru kâğıdı. Boyalar hiç karışmadığı için her damla hâlâ oradadır; geri alınamayan tek şey kâğıdı kaldırmak.",
-    "en": "A sheet of marbled paper that makes itself on water, then runs time backward. The paint never mixes, so every drop is still there; only lifting the paper can't be undone."
+    "title": "Ebru Atölyesi",
+    "tags": ["sim", "art"],
+    "tr": "Tarayıcıda bir ebru atölyesi: fırça, biz, tarak, çiçek ve akkase, 26 geleneksel boya, geri sarılıp yeniden boyanabilen bir zaman çizgisi ve 50×70 cm'ye kadar kesin baskı.",
+    "en": "An ebru (Turkish paper marbling) workshop in the browser: brush, awl, comb, flowers and akkase, 26 traditional paints, a timeline you can rewind and repaint, and exact prints up to 50×70 cm."
   },
   {
     "repo": "GlassStack",
