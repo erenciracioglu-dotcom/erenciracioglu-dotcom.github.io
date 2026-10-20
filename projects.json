@@ -1,5 +1,12 @@
 [
   {
+    "repo": "echo",
+    "title": "ECHO",
+    "tags": ["game", "sim"],
+    "tr": "Zifiri karanlıkta bir gizlilik oyunu. Tek ışığın, sesin: ekran kartında çözülen bir dalga denklemi mağarayı aydınlatır, kör avcılar da seni aynı dalgalardan duyar. 28 mağara, çanlar, kristaller ve ses okları.",
+    "en": "A stealth game in total darkness. Sound is your only light: a wave equation solved on the GPU lights the cave, and blind hunters hear you through the same waves. 28 caves, bells, crystals and sound darts."
+  },
+  {
     "repo": "emergence",
     "title": "Emergence",
     "tags": ["sim"],
