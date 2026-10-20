@@ -1,5 +1,12 @@
 [
   {
+    "repo": "shape-of-sound",
+    "title": "Shape of Sound",
+    "tags": ["music", "sim"],
+    "tr": "Herhangi bir şekil çiz, nasıl çınladığını dinle: şeklin gerçek titreşim modlarıyla çalan bir davul, bronz, cam ya da ahşap enstrüman. Ağır çekim titreşim, Chladni kumu, ritim dizileyici ve aynı sesi veren iki farklı davul.",
+    "en": "Draw any shape and hear how it rings: a drum, bronze, glass or wood instrument that plays at the shape's real vibration modes. Slow-motion vibration, Chladni sand, a rhythm sequencer and two different drums that sound the same."
+  },
+  {
     "repo": "echo",
     "title": "ECHO",
     "tags": ["game", "sim"],
