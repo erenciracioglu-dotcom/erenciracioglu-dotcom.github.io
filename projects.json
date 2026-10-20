@@ -1,5 +1,12 @@
 [
   {
+    "repo": "dustys-great-achoo",
+    "title": "Dusty's Great Achoo",
+    "tags": ["game"],
+    "tr": "Tek bir toz yumağı, zorba bir robot süpürge ve son derece güçlü bir burun. Hapşır; hapşırığının değdiği her robot da hapşırsın ve zincir büyüsün. 12 bölüm, iki boss ve kırıntılarla büyüyen bir burun.",
+    "en": "One dust bunny, one tyrant robot vacuum and one extremely powerful nose. Sneeze, and every robot your sneeze touches sneezes too. 12 levels, two bosses and a nose that grows with crumbs."
+  },
+  {
     "repo": "isobar-weather",
     "title": "Isobar Weather",
     "tags": ["tool", "map"],
