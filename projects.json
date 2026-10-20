@@ -1,5 +1,12 @@
 [
   {
+    "repo": "wheel-and-kiln",
+    "title": "Wheel & Kiln",
+    "tags": ["sim", "art"],
+    "tr": "Çarkta bir çömlek çek, sırra daldır, fırına ver: hacmi korunan, sarkıp çökebilen çamur; akan, toplanan ve çatlayan on sır; elektrikli, gazlı redüksiyon ve raku fırınlar. Biten çömlekler rafta; fotoğraf ve STL.",
+    "en": "Throw a pot, dip it in glaze, fire it: clay that keeps its volume and can sag and collapse, ten glazes that run, pool and crackle, and electric, gas-reduction and raku kilns. Finished pots go on a shelf; photo and STL export."
+  },
+  {
     "repo": "dustys-great-achoo",
     "title": "Dusty's Great Achoo",
     "tags": ["game"],
