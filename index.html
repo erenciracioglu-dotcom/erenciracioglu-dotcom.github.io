@@ -194,7 +194,8 @@
 const OWNER = 'erenciracioglu-dotcom';
 const SITE = `https://${OWNER}.github.io`;
 // Repos with Pages that should not appear as projects (e.g. this index itself).
-const HIDDEN = new Set([`${OWNER}.github.io`]);
+// Lower-case names. kamp10 is Eray's study site, not a project for the index.
+const HIDDEN = new Set([`${OWNER}.github.io`, 'kamp10']);
 
 const T = {
   tr: {
@@ -291,8 +292,9 @@ document.querySelectorAll('.lang button').forEach(b => b.addEventListener('click
   render();
 }));
 
-// Curated list first; then any newer Pages repo that is not in the list yet
-// shows up automatically, using its GitHub description and screenshot.png.
+// Curated list first, in its own order (newest at the top of projects.json).
+// Any Pages repo that is not in the list yet shows up after it, marked New,
+// using its GitHub description and screenshot.png, until it is added to the list.
 async function load() {
   try {
     const list = await (await fetch('projects.json')).json();
@@ -307,7 +309,7 @@ async function load() {
     if (!res.ok) return;
     const known = new Set(projects.map(p => p.repo.toLowerCase()));
     const extra = (await res.json())
-      .filter(r => r.has_pages && !r.fork && !r.archived && !HIDDEN.has(r.name) && !known.has(r.name.toLowerCase()))
+      .filter(r => r.has_pages && !r.fork && !r.archived && !HIDDEN.has(r.name.toLowerCase()) && !known.has(r.name.toLowerCase()))
       .map(r => ({
         repo: r.name,
         title: r.name.replace(/[-_]+/g, ' ').replace(/\b\w/g, c => c.toUpperCase()),
@@ -316,7 +318,7 @@ async function load() {
         thumb: `${SITE}/${r.name}/screenshot.png`,
         auto: true
       }));
-    if (extra.length) { projects = [...extra, ...projects]; render(); }
+    if (extra.length) { projects = [...projects, ...extra]; render(); }
   } catch (e) { /* offline or rate-limited: the curated list is enough */ }
 }
 // Titles come live from YouTube (through noembed, which allows browser requests),
