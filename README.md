@@ -15,6 +15,6 @@ Add `{ "id": "<YouTube video id>" }` to `videos.json`. The thumbnail and title c
 
 ## Tags
 
-Project tags: `game`, `music`, `sim`, `art`, `4d`, `map`, `other`.
+Project tags: `game`, `music`, `sim`, `art`, `4d`, `map`, `tool`, `other`.
 
 If a repo gets GitHub Pages but has no entry yet, the page lists it anyway, marked "New", with its GitHub description and its `screenshot.png`. Adding it to `projects.json` gives it a proper description and thumbnail.

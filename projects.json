@@ -1,5 +1,12 @@
 [
   {
+    "repo": "isobar-weather",
+    "title": "Isobar Weather",
+    "tags": ["tool", "map"],
+    "tr": "Ücretsiz 15 günlük hava tahmini: saatlik ya da 3 saatlik ayrıntı, anahtarsız bir hava haritası, 8 modelin karşılaştırması ve tahmin güveni. Temel ve gelişmiş mod, Türkçe ve İngilizce, tek bir HTML dosyası.",
+    "en": "A free 15-day weather forecast with hourly or 3-hourly detail, a keyless weather map, eight models side by side and forecast confidence. Basic and advanced modes, Turkish and English, one HTML file."
+  },
+  {
     "repo": "shape-of-sound",
     "title": "Shape of Sound",
     "tags": ["music", "sim"],
