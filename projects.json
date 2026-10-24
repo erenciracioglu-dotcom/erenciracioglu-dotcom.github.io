@@ -1,5 +1,12 @@
 [
   {
+    "repo": "FragRush",
+    "title": "FragRush",
+    "tags": ["game"],
+    "tr": "Tarayıcıda hızlı, neredeyse her şeyin yıkılabildiği bir arena FPS'i. Hesap ve kurulum yok: gir, neon ışıklı voxel arenada botlarla kapış, duvarları havaya uçur, çöken binaların altında rakiplerini göm. Kıyamet küresiyle her isabet öldürür.",
+    "en": "A fast arena shooter in the browser where almost everything can be destroyed. No accounts, no setup: jump in, fight bots in a neon-lit voxel arena, blow walls apart and bury rivals under collapsing buildings. Grab the Doomsday Orb and every hit kills."
+  },
+  {
     "repo": "wheel-and-kiln",
     "title": "Wheel & Kiln",
     "tags": ["sim", "art"],
