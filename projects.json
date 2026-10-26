@@ -3,8 +3,8 @@
     "repo": "FragRush",
     "title": "FragRush",
     "tags": ["game"],
-    "tr": "Tarayıcıda hızlı, neredeyse her şeyin yıkılabildiği bir arena FPS'i. Hesap ve kurulum yok: gir, neon ışıklı voxel arenada botlarla kapış, duvarları havaya uçur, çöken binaların altında rakiplerini göm. Kıyamet küresiyle her isabet öldürür.",
-    "en": "A fast arena shooter in the browser where almost everything can be destroyed. No accounts, no setup: jump in, fight bots in a neon-lit voxel arena, blow walls apart and bury rivals under collapsing buildings. Grab the Doomsday Orb and every hit kills."
+    "tr": "Tarayıcıda hızlı, neredeyse her şeyin yıkılabildiği bir arena FPS'i. Hesap ve kurulum yok: üç haritada (neon ışıklı voxel arena; ağaç evleri, deresi ve gölüyle güneşli bir çayır; lav deresinin yardığı karanlık bir volkan vadisi) botlarla kapış, duvarları havaya uçur, rakiplerini çöken binaların altında göm ya da lava fırlat.",
+    "en": "A fast arena shooter in the browser where almost everything can be destroyed. No accounts, no setup: fight bots on three maps (a neon-lit voxel arena, a sunny meadow with treehouses, a creek and a lake, and a dark volcanic valley cut by a creek of lava), blow walls apart, bury rivals under collapsing buildings or blast them into the lava."
   },
   {
     "repo": "wheel-and-kiln",
