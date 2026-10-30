@@ -2,120 +2,171 @@
   {
     "repo": "FragRush",
     "title": "FragRush",
-    "tags": ["game"],
+    "tags": [
+      "game"
+    ],
     "tr": "Tarayıcıda hızlı, neredeyse her şeyin yıkılabildiği bir arena FPS'i. Hesap ve kurulum yok: üç haritada (neon ışıklı voxel arena; ağaç evleri, deresi ve gölüyle güneşli bir çayır; lav deresinin yardığı karanlık bir volkan vadisi) botlarla kapış, duvarları havaya uçur, rakiplerini çöken binaların altında göm ya da lava fırlat.",
     "en": "A fast arena shooter in the browser where almost everything can be destroyed. No accounts, no setup: fight bots on three maps (a neon-lit voxel arena, a sunny meadow with treehouses, a creek and a lake, and a dark volcanic valley cut by a creek of lava), blow walls apart, bury rivals under collapsing buildings or blast them into the lava."
   },
   {
     "repo": "wheel-and-kiln",
     "title": "Wheel & Kiln",
-    "tags": ["sim", "art"],
+    "tags": [
+      "sim",
+      "art"
+    ],
     "tr": "Çarkta bir çömlek çek, sırra daldır, fırına ver: hacmi korunan, sarkıp çökebilen çamur; akan, toplanan ve çatlayan on sır; elektrikli, gazlı redüksiyon ve raku fırınlar. Biten çömlekler rafta; fotoğraf ve STL.",
     "en": "Throw a pot, dip it in glaze, fire it: clay that keeps its volume and can sag and collapse, ten glazes that run, pool and crackle, and electric, gas-reduction and raku kilns. Finished pots go on a shelf; photo and STL export."
   },
   {
     "repo": "dustys-great-achoo",
     "title": "Dusty's Great Achoo",
-    "tags": ["game"],
+    "tags": [
+      "game"
+    ],
     "tr": "Tek bir toz yumağı, zorba bir robot süpürge ve son derece güçlü bir burun. Hapşır; hapşırığının değdiği her robot da hapşırsın ve zincir büyüsün. 12 bölüm, iki boss ve kırıntılarla büyüyen bir burun.",
     "en": "One dust bunny, one tyrant robot vacuum and one extremely powerful nose. Sneeze, and every robot your sneeze touches sneezes too. 12 levels, two bosses and a nose that grows with crumbs."
   },
   {
     "repo": "isobar-weather",
     "title": "Isobar Weather",
-    "tags": ["tool", "map"],
+    "tags": [
+      "tool",
+      "map"
+    ],
     "tr": "Ücretsiz 15 günlük hava tahmini: saatlik ya da 3 saatlik ayrıntı, anahtarsız bir hava haritası, 8 modelin karşılaştırması ve tahmin güveni. Temel ve gelişmiş mod, Türkçe ve İngilizce, tek bir HTML dosyası.",
     "en": "A free 15-day weather forecast with hourly or 3-hourly detail, a keyless weather map, eight models side by side and forecast confidence. Basic and advanced modes, Turkish and English, one HTML file."
   },
   {
     "repo": "shape-of-sound",
     "title": "Shape of Sound",
-    "tags": ["music", "sim"],
+    "tags": [
+      "music",
+      "sim"
+    ],
     "tr": "Herhangi bir şekil çiz, nasıl çınladığını dinle: şeklin gerçek titreşim modlarıyla çalan bir davul, bronz, cam ya da ahşap enstrüman. Ağır çekim titreşim, Chladni kumu, ritim dizileyici ve aynı sesi veren iki farklı davul.",
     "en": "Draw any shape and hear how it rings: a drum, bronze, glass or wood instrument that plays at the shape's real vibration modes. Slow-motion vibration, Chladni sand, a rhythm sequencer and two different drums that sound the same."
   },
   {
     "repo": "echo",
     "title": "ECHO",
-    "tags": ["game", "sim"],
+    "tags": [
+      "game",
+      "sim"
+    ],
     "tr": "Zifiri karanlıkta bir gizlilik oyunu. Tek ışığın, sesin: ekran kartında çözülen bir dalga denklemi mağarayı aydınlatır, kör avcılar da seni aynı dalgalardan duyar. 28 mağara, çanlar, kristaller ve ses okları.",
     "en": "A stealth game in total darkness. Sound is your only light: a wave equation solved on the GPU lights the cave, and blind hunters hear you through the same waves. 28 caves, bells, crystals and sound darts."
   },
   {
     "repo": "emergence",
     "title": "Emergence",
-    "tags": ["sim"],
+    "tags": [
+      "sim"
+    ],
     "tr": "Kendi fizik yasaları olan minicik bir evren: yaşam kendiliğinden başlıyor, gerçek zamanlı olarak evrimleşiyor, yarışıyor ve iş birliği yapıyor. Yasalarını meraklı bir tanrı gibi bük.",
     "en": "A tiny universe with its own laws of physics, where life sparks on its own and evolves, competes and cooperates in real time. Bend its laws like a curious god."
   },
   {
     "repo": "ebru",
     "title": "Ebru Atölyesi",
-    "tags": ["sim", "art"],
+    "tags": [
+      "sim",
+      "art"
+    ],
     "tr": "Tarayıcıda bir ebru atölyesi: fırça, biz, tarak, çiçek ve akkase, 26 geleneksel boya, geri sarılıp yeniden boyanabilen bir zaman çizgisi ve 50×70 cm'ye kadar kesin baskı.",
     "en": "An ebru (Turkish paper marbling) workshop in the browser: brush, awl, comb, flowers and akkase, 26 traditional paints, a timeline you can rewind and repaint, and exact prints up to 50×70 cm."
   },
   {
     "repo": "GlassStack",
     "title": "GlassStack",
-    "tags": ["tool"],
+    "tags": [
+      "tool"
+    ],
     "tr": "Windows 11 için küçük bir sistem izleyici: görev çubuğunda ince bir şerit, Ctrl+Shift+Space ile açılan 3B kart destesi ve her sayının arkasındaki işlemleri gösteren detay pencereleri. Tek exe, ~2 MB bellek.",
     "en": "A tiny system monitor for Windows 11: a slim strip on the taskbar, a 3D deck of cards on Ctrl+Shift+Space and detail windows with the processes behind every number. One exe, ~2 MB of memory."
   },
   {
     "repo": "suluboya-atolyesi",
     "title": "Suluboya Atölyesi",
-    "tags": ["sim", "art"],
+    "tags": [
+      "sim",
+      "art"
+    ],
     "tr": "Tarayıcıda fizik tabanlı suluboya: akan su, emilen nem, Kubelka–Munk ile karışan 34 gerçek pigment, tuz, kurutma makinesi ve 6 kağıt türü.",
     "en": "A physics-based watercolour simulator on the GPU: flowing water, soaking paper, 34 real pigments mixed with Kubelka–Munk, salt, hairdryer and six papers."
   },
   {
     "repo": "flooder",
     "title": "Flooder",
-    "tags": ["sim", "map"],
+    "tags": [
+      "sim",
+      "map"
+    ],
     "tr": "Deniz seviyesi −5.000 m ile +7.000 m arasında değişirse Türkiye ve çevresinde nereler su altında kalır? Batimetri, bağlantılı taşkın modeli ve il istatistikleri.",
     "en": "What floods, or surfaces, around Türkiye if the sea moves between −5,000 m and +7,000 m? Bathymetry, connected flooding and per-province stats."
   },
   {
     "repo": "soft-orbit",
     "title": "Soft Orbit",
-    "tags": ["music"],
+    "tags": [
+      "music"
+    ],
     "tr": "Poliritmik kil bir planetaryum: on oluğa boncuk bastır, dönen ışık her boncuğu çalsın. Ruh hâli, akor, gezgin boncuklar ve loop WAV kaydı.",
     "en": "A polyrhythmic clay orrery: press beads into ten grooves and a sweeping light plays them. Moods, chords, wandering beads and loop WAV bounce."
   },
   {
     "repo": "musyc-relief",
     "title": "Musyc Relief",
-    "tags": ["music"],
+    "tags": [
+      "music"
+    ],
     "tr": "Şarkı, yumuşak kile oyulmuş bir kabartma; bir ışık onu okur. Yükseklik perde, uzunluk süre, derinlik ses şiddeti. Şarkıyı WAV olarak fırınla.",
     "en": "A song is a relief carved into soft clay and a light reads it. Height is pitch, length is duration, depth is loudness. Bake the song to WAV."
   },
   {
     "repo": "Tesseracting",
     "title": "Tesseracting",
-    "tags": ["4d"],
+    "tags": [
+      "4d"
+    ],
     "tr": "Dört boyutu hissetmek için bir oyuncak: dönen bir tesseraktın içinde ağırlıksız seken bir top, hem dışarıdan hem topun kendi gözünden.",
     "en": "A toy for feeling your way around four dimensions: a ball bouncing inside a turning tesseract, seen from outside and through its own eyes."
   },
   {
     "repo": "Hyperwell",
     "title": "Hyperwell",
-    "tags": ["4d", "game"],
+    "tags": [
+      "4d",
+      "game"
+    ],
     "tr": "Dört boyutlu sakin bir blok bulmacası: tesserakt biçimli kuyunun bütün 3B katmanlarını doldur. Acele yok, geri alma var.",
     "en": "A calm falling-block puzzle in four dimensions: fill whole 3D layers of a tesseract-shaped well. No hurry, and you can undo."
   },
   {
     "repo": "last-train",
     "title": "Last Train",
-    "tags": ["game"],
+    "tags": [
+      "game"
+    ],
     "tr": "Prosedürel SVG ile çizilen birinci şahıs korku nişancı oyunu. 4. peronu şafağa kadar tut; ışıklar sönüyor ve raylardan bir şey geliyor.",
     "en": "A first-person horror shooter drawn with procedural SVG. Hold Platform 4 until dawn; the lights are failing and something followed the rails in."
   },
   {
     "repo": "Plasma_Reactor",
     "title": "Plasma Reactor",
-    "tags": ["art"],
+    "tags": [
+      "art"
+    ],
     "tr": "Gerçek zamanlı fraktal noise alanları için tek dosyalık GPU shader paneli: 50+ parametre, hazır ayarlar, PNG yakalama ve paylaşım linki.",
     "en": "A single-file GPU shader deck for real-time fractal noise fields: 50+ parameters, presets, PNG capture and share links."
+  },
+  {
+    "repo": "makas",
+    "title": "Makas",
+    "tags": [
+      "tool"
+    ],
+    "en": "A free, watermark-free, CapCut-style video editor for Android phones and tablets. Cut, add text, music, filters, 23 transitions and 24 effects, then export MP4 without the video ever leaving the device.",
+    "tr": "Android telefon ve tablet için CapCut düzeninde, ücretsiz ve filigransız video düzenleyici. Kesme, metin, müzik, filtre, 23 geçiş ve 24 efekt; video cihazdan çıkmadan MP4 olarak dışa aktarılır."
   }
 ]
