@@ -1,5 +1,12 @@
 [
   {
+    "repo": "photoscale",
+    "title": "Photoscale",
+    "tags": ["tool"],
+    "tr": "Android telefonla bir yığının etrafında bir tur yürüyerek hacmini ve tonajını ölçer: ARCore hareket takibi gerçek ölçeği verir, kameradaki noktalar ve derinlik verisi 3B yükseklik haritası çıkarır, tonaj malzemenin yoğunluğundan hesaplanır. Her şey telefonda çalışır; simüle çakıl yığınlı demo her cihazda açılır.",
+    "en": "Measure a stockpile by walking one loop around it with an Android phone: ARCore tracking gives real-world scale, tracked camera points and depth build a 3D height map, and tonnage comes from the material's density. Everything runs on the phone; a demo with a simulated gravel pile opens on any device."
+  },
+  {
     "repo": "stocker",
     "title": "Stocker",
     "tags": ["tool"],
