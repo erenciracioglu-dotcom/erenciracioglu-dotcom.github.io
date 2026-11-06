@@ -1,5 +1,12 @@
 [
   {
+    "repo": "stocker",
+    "title": "Stocker",
+    "tags": ["tool"],
+    "tr": "ABD ve Borsa İstanbul hisseleri için portföy defteri: güncel fiyat ve kâr/zarar, endekslerle karşılaştırma; hisse sayfalarında grafik, teknik ve temel analiz, her göstergenin günlük dille açıklaması. Portföyler tarayıcında kalır, cihazlar arasında dosya ya da bağlantıyla taşınır.",
+    "en": "A portfolio tracker for US and Borsa Istanbul stocks: ledgers with fresh prices and P/L, benchmark comparison, and stock pages with charts, technical and fundamental analysis explained in plain words. Portfolios stay in your browser and move between devices by file or link."
+  },
+  {
     "repo": "FragRush",
     "title": "FragRush",
     "tags": ["game"],
