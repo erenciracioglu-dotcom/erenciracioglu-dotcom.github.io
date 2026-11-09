@@ -138,5 +138,12 @@
     "tags": ["tool"],
     "en": "A free, watermark-free, CapCut-style video editor for Android phones and tablets. Cut, reverse clips, add text, music, filters, 23 transitions and 24 effects, then export MP4 up to 4K with your choice of codec and quality, without the video ever leaving the device.",
     "tr": "Android telefon ve tablet için CapCut düzeninde, ücretsiz ve filigransız video düzenleyici. Kesme, klibi ters oynatma, metin, müzik, filtre, 23 geçiş ve 24 efekt; video cihazdan çıkmadan, kodek ve kalitesi seçilerek 4K'ya kadar MP4 olarak dışa aktarılır."
+  },
+  {
+    "repo": "depth-25d",
+    "title": "Depth 2.5D",
+    "tags": ["tool", "art"],
+    "en": "Turn a single image into a moving 2.5D/3D view in your browser. Depth Anything V2 estimates depth locally, edges between subject and background are split so nothing stretches, and you can record a seamless loop video. Opens with a sample; the ~100 MB model is downloaded only for your own images.",
+    "tr": "Tek bir görseli tarayıcıda hareketli 2.5D/3B görünüme çevirir. Derinliği Depth Anything V2 cihazda hesaplar, kişi ile arka plan arasındaki kenarlar ayrıldığı için esneme olmaz, kesintisiz döngü video kaydedilebilir. Örnek görselle açılır; ~100 MB'lık model yalnızca kendi görselin için indirilir."
   }
 ]
