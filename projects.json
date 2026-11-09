@@ -145,5 +145,12 @@
     "tags": ["tool", "art"],
     "en": "Turn a single image into a moving 2.5D/3D view in your browser. Depth Anything V2 estimates depth locally, edges between subject and background are split so nothing stretches, and you can record a seamless loop video. Opens with a sample; the ~100 MB model is downloaded only for your own images.",
     "tr": "Tek bir görseli tarayıcıda hareketli 2.5D/3B görünüme çevirir. Derinliği Depth Anything V2 cihazda hesaplar, kişi ile arka plan arasındaki kenarlar ayrıldığı için esneme olmaz, kesintisiz döngü video kaydedilebilir. Örnek görselle açılır; ~100 MB'lık model yalnızca kendi görselin için indirilir."
+  },
+  {
+    "repo": "Riversong",
+    "title": "Riversong",
+    "tags": ["music", "art"],
+    "en": "Draw a river and the water sings: lanterns ride your streams past ringing stones, humming reeds and drumming waterfalls. Ponds loop, a lifted dam pours out, the light retunes everything, and zoomed out the whole song is a painting of a valley.",
+    "tr": "Bir dere çiz, su şarkı söylesin: fenerler çınlayan taşların, mırıldanan kamışların ve davul gibi vuran şelalelerin yanından süzülür. Göletler döner, kaldırılan set fenerleri birlikte akıtır, ışık her şeyi yeniden akort eder; uzaklaşınca bütün şarkı bir vadi resmidir."
   }
 ]
