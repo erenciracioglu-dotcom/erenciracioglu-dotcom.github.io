@@ -152,5 +152,12 @@
     "tags": ["music", "art"],
     "en": "Draw a river and the water sings: lanterns ride your streams past ringing stones, humming reeds and drumming waterfalls. Ponds loop, a lifted dam pours out, the light retunes everything, and zoomed out the whole song is a painting of a valley.",
     "tr": "Bir dere çiz, su şarkı söylesin: fenerler çınlayan taşların, mırıldanan kamışların ve davul gibi vuran şelalelerin yanından süzülür. Göletler döner, kaldırılan set fenerleri birlikte akıtır, ışık her şeyi yeniden akort eder; uzaklaşınca bütün şarkı bir vadi resmidir."
+  },
+  {
+    "repo": "klavye-cevikligi",
+    "title": "Klavye Çevikliği",
+    "tags": ["sim", "tool"],
+    "en": "How much faster would you type on another keyboard layout? A model learned from 346 real typists times every keystroke at your speed and races two layouts with animated hands: Turkish Q, F and E, QWERTY, Dvorak, Colemak, your own drag-and-drop layout, and six faster layouts found with the model.",
+    "tr": "Başka bir klavye düzeninde ne kadar hızlı yazardın? 346 kişinin gerçek yazma verisinden öğrenilmiş bir model her tuş vuruşunu senin hızında zamanlıyor ve iki düzeni hareketli ellerle yarıştırıyor: Türkçe Q, F ve E, QWERTY, Dvorak, Colemak, sürükleyip bıraktığın kendi düzenin ve modelle bulunan altı daha hızlı düzen."
   }
 ]
