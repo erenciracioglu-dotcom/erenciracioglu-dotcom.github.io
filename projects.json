@@ -136,8 +136,8 @@
     "repo": "makas",
     "title": "Makas",
     "tags": ["tool"],
-    "en": "A free, watermark-free, CapCut-style video editor for Android phones and tablets. Cut, reverse clips, add text, music, filters, 23 transitions and 24 effects, then export MP4 up to 4K with your choice of codec and quality, without the video ever leaving the device.",
-    "tr": "Android telefon ve tablet için CapCut düzeninde, ücretsiz ve filigransız video düzenleyici. Kesme, klibi ters oynatma, metin, müzik, filtre, 23 geçiş ve 24 efekt; video cihazdan çıkmadan, kodek ve kalitesi seçilerek 4K'ya kadar MP4 olarak dışa aktarılır."
+    "en": "A free, watermark-free, CapCut-style video editor for Android phones and tablets. Cut, reverse clips, add text, filters, 23 transitions and 24 effects, pick music, sound effects and ambience from a built-in library of openly licensed sounds, then export MP4 up to 4K with your choice of codec and quality, without the video ever leaving the device.",
+    "tr": "Android telefon ve tablet için CapCut düzeninde, ücretsiz ve filigransız video düzenleyici. Kesme, klibi ters oynatma, metin, filtre, 23 geçiş ve 24 efekt, açık lisanslı seslerden oluşan kütüphaneden müzik, ses efekti ve ortam sesi; video cihazdan çıkmadan, kodek ve kalitesi seçilerek 4K'ya kadar MP4 olarak dışa aktarılır."
   },
   {
     "repo": "depth-25d",
