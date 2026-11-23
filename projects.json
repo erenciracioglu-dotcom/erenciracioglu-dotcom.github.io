@@ -1,5 +1,12 @@
 [
   {
+    "repo": "hyperpong",
+    "title": "HYPERPONG",
+    "tags": ["game"],
+    "tr": "Düz kalmayı reddeden neon bir tünelde birinci şahıs 3B pong. Topu falsoyla kıvır, uçarken vurup yönünü değiştir ya da rakip raketi dondur, zamanı yavaşlat, kaçırdığın topu geri sar. Yedi boyutun her biri başka bir kuralı bozuyor: bükülen tünel, ışığı büken bir kara delik, üçe bölünen hayalet toplar, solucan delikleri, dönen yerçekimi ve hepsini birden üstüne salan bir tekillik; bir de sonsuz mod.",
+    "en": "First-person 3D pong in a neon tunnel that refuses to stay flat. Curve the ball with a flick, shoot it mid-flight or freeze the enemy paddle, slow time and rewind your misses. Each of the seven dimensions breaks a different rule: a twisting tunnel, a black hole that bends light, ghost balls that split in three, wormholes, rotating gravity and a singularity that throws them all at you, plus an endless mode."
+  },
+  {
     "repo": "pit-duvari",
     "title": "Pit Duvarı",
     "tags": ["tool"],
