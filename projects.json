@@ -1,162 +1,228 @@
 [
   {
+    "repo": "pit-duvari",
+    "title": "Pit Duvarı",
+    "tags": [
+      "tool"
+    ],
+    "tr": "Formula 1 takip merkezi: sıradaki seansa geri sayım, 1950'den bugüne tüm sonuçlar, puan durumu, Türkçe ve İngilizce haberler, tur tur yarış analizi ve pist tekrarı, telemetri düellosu, rekorlar, tahmin oyunu ve günün quizi. Veri her 30 dakikada bir kendiliğinden yenilenir; profil cihazlar arasında dosya, bağlantı ya da karekodla taşınır.",
+    "en": "A Formula 1 hub: countdown to the next session, every result since 1950, standings, Turkish and English news, lap-by-lap race analysis with a track replay, telemetry duels, records, a prediction game and a daily quiz. Data refreshes itself every 30 minutes; your profile moves between devices by file, link or QR code."
+  },
+  {
     "repo": "photoscale",
     "title": "Photoscale",
-    "tags": ["tool"],
+    "tags": [
+      "tool"
+    ],
     "tr": "Android telefonla bir yığının etrafında bir tur yürüyerek hacmini ve tonajını ölçer: ARCore hareket takibi gerçek ölçeği verir, kameradaki noktalar ve derinlik verisi 3B yükseklik haritası çıkarır, tonaj malzemenin yoğunluğundan hesaplanır. Her şey telefonda çalışır; simüle çakıl yığınlı demo her cihazda açılır.",
     "en": "Measure a stockpile by walking one loop around it with an Android phone: ARCore tracking gives real-world scale, tracked camera points and depth build a 3D height map, and tonnage comes from the material's density. Everything runs on the phone; a demo with a simulated gravel pile opens on any device."
   },
   {
     "repo": "stocker",
     "title": "Stocker",
-    "tags": ["tool"],
+    "tags": [
+      "tool"
+    ],
     "tr": "ABD ve Borsa İstanbul hisseleri için portföy defteri: güncel fiyat ve kâr/zarar, endekslerle karşılaştırma; hisse sayfalarında grafik, teknik ve temel analiz, her göstergenin günlük dille açıklaması. Portföyler tarayıcında kalır, cihazlar arasında dosya ya da bağlantıyla taşınır.",
     "en": "A portfolio tracker for US and Borsa Istanbul stocks: ledgers with fresh prices and P/L, benchmark comparison, and stock pages with charts, technical and fundamental analysis explained in plain words. Portfolios stay in your browser and move between devices by file or link."
   },
   {
     "repo": "FragRush",
     "title": "FragRush",
-    "tags": ["game"],
+    "tags": [
+      "game"
+    ],
     "tr": "Tarayıcıda hızlı, neredeyse her şeyin yıkılabildiği bir arena FPS'i. Hesap ve kurulum yok: botlarla ya da çevrimiçi en çok üç arkadaşınla sekiz haritada kapış; neon ışıklı voxel arenadan lav vadisine ve buz gölüne, ay üssünden dev bir çocuk odasına, tek atışın bütün zinciri ateşlediği bir havai fişek fabrikasına ve kristali kırılınca bulutlara düşen gök adalarına kadar. Tuşları istediğin gibi değiştirebilirsin.",
     "en": "A fast arena shooter in the browser where almost everything can be destroyed. No accounts, no setup: fight bots, or up to three friends online, on eight maps, from a neon voxel arena, a lava valley and a frozen lake to a moon base, a giant kid's room, a fireworks factory where one shot sets off a whole chain, and islands floating over the clouds that drop when you break their crystals. All keys can be rebound."
   },
   {
     "repo": "wheel-and-kiln",
     "title": "Wheel & Kiln",
-    "tags": ["sim", "art"],
+    "tags": [
+      "sim",
+      "art"
+    ],
     "tr": "Çarkta bir çömlek çek, sırra daldır, fırına ver: hacmi korunan, sarkıp çökebilen çamur; akan, toplanan ve çatlayan on sır; elektrikli, gazlı redüksiyon ve raku fırınlar. Biten çömlekler rafta; fotoğraf ve STL.",
     "en": "Throw a pot, dip it in glaze, fire it: clay that keeps its volume and can sag and collapse, ten glazes that run, pool and crackle, and electric, gas-reduction and raku kilns. Finished pots go on a shelf; photo and STL export."
   },
   {
     "repo": "dustys-great-achoo",
     "title": "Dusty's Great Achoo",
-    "tags": ["game"],
+    "tags": [
+      "game"
+    ],
     "tr": "Tek bir toz yumağı, zorba bir robot süpürge ve son derece güçlü bir burun. Hapşır; hapşırığının değdiği her robot da hapşırsın ve zincir büyüsün. 12 bölüm, iki boss ve kırıntılarla büyüyen bir burun.",
     "en": "One dust bunny, one tyrant robot vacuum and one extremely powerful nose. Sneeze, and every robot your sneeze touches sneezes too. 12 levels, two bosses and a nose that grows with crumbs."
   },
   {
     "repo": "isobar-weather",
     "title": "Isobar Weather",
-    "tags": ["tool", "map"],
+    "tags": [
+      "tool",
+      "map"
+    ],
     "tr": "Ücretsiz 15 günlük hava tahmini: saatlik ya da 3 saatlik ayrıntı, anahtarsız bir hava haritası, 8 modelin karşılaştırması ve tahmin güveni. Temel ve gelişmiş mod, Türkçe ve İngilizce, tek bir HTML dosyası.",
     "en": "A free 15-day weather forecast with hourly or 3-hourly detail, a keyless weather map, eight models side by side and forecast confidence. Basic and advanced modes, Turkish and English, one HTML file."
   },
   {
     "repo": "shape-of-sound",
     "title": "Shape of Sound",
-    "tags": ["music", "sim"],
+    "tags": [
+      "music",
+      "sim"
+    ],
     "tr": "Herhangi bir şekil çiz, nasıl çınladığını dinle: şeklin gerçek titreşim modlarıyla çalan bir davul, bronz, cam ya da ahşap enstrüman. Ağır çekim titreşim, Chladni kumu, ritim dizileyici ve aynı sesi veren iki farklı davul.",
     "en": "Draw any shape and hear how it rings: a drum, bronze, glass or wood instrument that plays at the shape's real vibration modes. Slow-motion vibration, Chladni sand, a rhythm sequencer and two different drums that sound the same."
   },
   {
     "repo": "echo",
     "title": "ECHO",
-    "tags": ["game", "sim"],
+    "tags": [
+      "game",
+      "sim"
+    ],
     "tr": "Zifiri karanlıkta bir gizlilik oyunu. Tek ışığın, sesin: ekran kartında çözülen bir dalga denklemi mağarayı aydınlatır, kör avcılar da seni aynı dalgalardan duyar. 28 mağara, çanlar, kristaller ve ses okları.",
     "en": "A stealth game in total darkness. Sound is your only light: a wave equation solved on the GPU lights the cave, and blind hunters hear you through the same waves. 28 caves, bells, crystals and sound darts."
   },
   {
     "repo": "emergence",
     "title": "Emergence",
-    "tags": ["sim"],
+    "tags": [
+      "sim"
+    ],
     "tr": "Kendi fizik yasaları olan minicik bir evren: yaşam kendiliğinden başlıyor, gerçek zamanlı olarak evrimleşiyor, yarışıyor ve iş birliği yapıyor. Yasalarını meraklı bir tanrı gibi bük.",
     "en": "A tiny universe with its own laws of physics, where life sparks on its own and evolves, competes and cooperates in real time. Bend its laws like a curious god."
   },
   {
     "repo": "ebru",
     "title": "Ebru Atölyesi",
-    "tags": ["sim", "art"],
+    "tags": [
+      "sim",
+      "art"
+    ],
     "tr": "Tarayıcıda bir ebru atölyesi: fırça, biz, tarak, çiçek ve akkase, 26 geleneksel boya, geri sarılıp yeniden boyanabilen bir zaman çizgisi ve 50×70 cm'ye kadar kesin baskı.",
     "en": "An ebru (Turkish paper marbling) workshop in the browser: brush, awl, comb, flowers and akkase, 26 traditional paints, a timeline you can rewind and repaint, and exact prints up to 50×70 cm."
   },
   {
     "repo": "GlassStack",
     "title": "GlassStack",
-    "tags": ["tool"],
+    "tags": [
+      "tool"
+    ],
     "tr": "Windows 11 için küçük bir sistem izleyici: görev çubuğunda ince bir şerit, Ctrl+Shift+Space ile açılan 3B kart destesi ve her sayının arkasındaki işlemleri gösteren detay pencereleri. Tek exe, ~2 MB bellek.",
     "en": "A tiny system monitor for Windows 11: a slim strip on the taskbar, a 3D deck of cards on Ctrl+Shift+Space and detail windows with the processes behind every number. One exe, ~2 MB of memory."
   },
   {
     "repo": "suluboya-atolyesi",
     "title": "Suluboya Atölyesi",
-    "tags": ["sim", "art"],
+    "tags": [
+      "sim",
+      "art"
+    ],
     "tr": "Tarayıcıda fizik tabanlı suluboya: akan su, emilen nem, Kubelka–Munk ile karışan 34 gerçek pigment, tuz, kurutma makinesi ve 6 kağıt türü.",
     "en": "A physics-based watercolour simulator on the GPU: flowing water, soaking paper, 34 real pigments mixed with Kubelka–Munk, salt, hairdryer and six papers."
   },
   {
     "repo": "flooder",
     "title": "Flooder",
-    "tags": ["sim", "map"],
+    "tags": [
+      "sim",
+      "map"
+    ],
     "tr": "Deniz seviyesi −5.000 m ile +7.000 m arasında değişirse Türkiye ve çevresinde nereler su altında kalır? Batimetri, bağlantılı taşkın modeli ve il istatistikleri.",
     "en": "What floods, or surfaces, around Türkiye if the sea moves between −5,000 m and +7,000 m? Bathymetry, connected flooding and per-province stats."
   },
   {
     "repo": "soft-orbit",
     "title": "Soft Orbit",
-    "tags": ["music"],
+    "tags": [
+      "music"
+    ],
     "tr": "Poliritmik kil bir planetaryum: on oluğa boncuk bastır, dönen ışık her boncuğu çalsın. Ruh hâli, akor, gezgin boncuklar ve loop WAV kaydı.",
     "en": "A polyrhythmic clay orrery: press beads into ten grooves and a sweeping light plays them. Moods, chords, wandering beads and loop WAV bounce."
   },
   {
     "repo": "musyc-relief",
     "title": "Musyc Relief",
-    "tags": ["music"],
+    "tags": [
+      "music"
+    ],
     "tr": "Şarkı, yumuşak kile oyulmuş bir kabartma; bir ışık onu okur. Yükseklik perde, uzunluk süre, derinlik ses şiddeti. Şarkıyı WAV olarak fırınla.",
     "en": "A song is a relief carved into soft clay and a light reads it. Height is pitch, length is duration, depth is loudness. Bake the song to WAV."
   },
   {
     "repo": "Tesseracting",
     "title": "Tesseracting",
-    "tags": ["4d"],
+    "tags": [
+      "4d"
+    ],
     "tr": "Dört boyutu hissetmek için bir oyuncak: dönen bir tesseraktın içinde ağırlıksız seken bir top, hem dışarıdan hem topun kendi gözünden.",
     "en": "A toy for feeling your way around four dimensions: a ball bouncing inside a turning tesseract, seen from outside and through its own eyes."
   },
   {
     "repo": "Hyperwell",
     "title": "Hyperwell",
-    "tags": ["4d", "game"],
+    "tags": [
+      "4d",
+      "game"
+    ],
     "tr": "Dört boyutlu sakin bir blok bulmacası: tesserakt biçimli kuyunun bütün 3B katmanlarını doldur. Acele yok, geri alma var.",
     "en": "A calm falling-block puzzle in four dimensions: fill whole 3D layers of a tesseract-shaped well. No hurry, and you can undo."
   },
   {
     "repo": "last-train",
     "title": "Last Train",
-    "tags": ["game"],
+    "tags": [
+      "game"
+    ],
     "tr": "Prosedürel SVG ile çizilen birinci şahıs korku nişancı oyunu. 4. peronu şafağa kadar tut; ışıklar sönüyor ve raylardan bir şey geliyor.",
     "en": "A first-person horror shooter drawn with procedural SVG. Hold Platform 4 until dawn; the lights are failing and something followed the rails in."
   },
   {
     "repo": "Plasma_Reactor",
     "title": "Plasma Reactor",
-    "tags": ["art"],
+    "tags": [
+      "art"
+    ],
     "tr": "Gerçek zamanlı fraktal noise alanları için tek dosyalık GPU shader paneli: 50+ parametre, hazır ayarlar, PNG yakalama ve paylaşım linki.",
     "en": "A single-file GPU shader deck for real-time fractal noise fields: 50+ parameters, presets, PNG capture and share links."
   },
   {
     "repo": "makas",
     "title": "Makas",
-    "tags": ["tool"],
+    "tags": [
+      "tool"
+    ],
     "en": "A free, watermark-free, CapCut-style video editor for Android phones and tablets. Cut, reverse clips, add text, filters, 23 transitions and 24 effects, pick music, sound effects and ambience from a built-in library of openly licensed sounds, then export MP4 up to 4K with your choice of codec and quality, without the video ever leaving the device. Export runs several encoders in parallel (about twice as fast for 4K), and a Windows desktop app that uses the graphics card is available from the repo’s Releases page.",
     "tr": "Android telefon ve tablet için CapCut düzeninde, ücretsiz ve filigransız video düzenleyici. Kesme, klibi ters oynatma, metin, filtre, 23 geçiş ve 24 efekt, açık lisanslı seslerden oluşan kütüphaneden müzik, ses efekti ve ortam sesi; video cihazdan çıkmadan, kodek ve kalitesi seçilerek 4K'ya kadar MP4 olarak dışa aktarılır. Dışa aktarma birkaç kodlayıcıyla aynı anda yapılır (4K'da yaklaşık iki kat hızlı); ekran kartını kullanan Windows masaüstü sürümü reponun Releases sayfasında."
   },
   {
     "repo": "depth-25d",
     "title": "Depth 2.5D",
-    "tags": ["tool", "art"],
+    "tags": [
+      "tool",
+      "art"
+    ],
     "en": "Turn a single image into a moving 2.5D/3D view in your browser. Depth Anything V2 estimates depth locally, edges between subject and background are split so nothing stretches, and you can record a seamless loop video. Opens with a sample; the ~100 MB model is downloaded only for your own images.",
     "tr": "Tek bir görseli tarayıcıda hareketli 2.5D/3B görünüme çevirir. Derinliği Depth Anything V2 cihazda hesaplar, kişi ile arka plan arasındaki kenarlar ayrıldığı için esneme olmaz, kesintisiz döngü video kaydedilebilir. Örnek görselle açılır; ~100 MB'lık model yalnızca kendi görselin için indirilir."
   },
   {
     "repo": "Riversong",
     "title": "Riversong",
-    "tags": ["music", "art"],
+    "tags": [
+      "music",
+      "art"
+    ],
     "en": "Draw a river and the water sings: lanterns ride your streams past ringing stones, humming reeds and drumming waterfalls. Ponds loop, a lifted dam pours out, the light retunes everything, and zoomed out the whole song is a painting of a valley.",
     "tr": "Bir dere çiz, su şarkı söylesin: fenerler çınlayan taşların, mırıldanan kamışların ve davul gibi vuran şelalelerin yanından süzülür. Göletler döner, kaldırılan set fenerleri birlikte akıtır, ışık her şeyi yeniden akort eder; uzaklaşınca bütün şarkı bir vadi resmidir."
   },
   {
     "repo": "klavye-cevikligi",
     "title": "Klavye Çevikliği",
-    "tags": ["sim", "tool"],
+    "tags": [
+      "sim",
+      "tool"
+    ],
     "en": "How much faster would you type on another keyboard layout? A model learned from 346 real typists times every keystroke at your speed and races two layouts with animated hands: Turkish Q, F and E, QWERTY, Dvorak, Colemak, your own drag-and-drop layout, and six faster layouts found with the model.",
     "tr": "Başka bir klavye düzeninde ne kadar hızlı yazardın? 346 kişinin gerçek yazma verisinden öğrenilmiş bir model her tuş vuruşunu senin hızında zamanlıyor ve iki düzeni hareketli ellerle yarıştırıyor: Türkçe Q, F ve E, QWERTY, Dvorak, Colemak, sürükleyip bıraktığın kendi düzenin ve modelle bulunan altı daha hızlı düzen."
   }
